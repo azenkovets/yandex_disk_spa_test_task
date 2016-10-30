@@ -36,11 +36,15 @@ class Pager extends React.Component {
 
     // Do not show next button if items are over.
     if (this.props.total > (parseInt(this.props.offset) + 1) * YANDEX_DISK_ITEMS_PER_PAGE_COUNT) {
-      nextButton = <li className="next"><Link to={{ pathname: formattedPath, query: { offset: parseInt(this.props.offset) + 1 }}}>Next</Link></li>
+      nextButton = (
+        <li className="next">
+          <Link to={{ pathname: formattedPath, query: { offset: parseInt(this.props.offset) + 1 }}}>Next</Link>
+        </li>
+      );
     }
 
     return (
-      <nav aria-label="...">
+      <nav aria-label="Page navigation">
         <ul className="pager">
           {prevButton}
           {nextButton}
