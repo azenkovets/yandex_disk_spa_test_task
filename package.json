@@ -1,0 +1,31 @@
+{
+  "name": "ya_disk_app",
+  "version": "1.0.0",
+  "description": "Single page application which allows you to overview folders and files of your yandex disk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Artyom Zenkovets",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.24.0",
+    "postcss-loader": "^0.11.1",
+    "precss": "^1.4.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "extract-text-webpack-plugin": "^1.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.15.2",
+    "filesize": "^3.3.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-router": "^3.0.0"
+  }
+}

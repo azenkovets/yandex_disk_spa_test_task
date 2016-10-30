@@ -1,0 +1,33 @@
+$yandex-yellow : #ffdb4d;
+
+#application {
+  margin-top: 20px;
+  a {
+    color: #000;
+  }
+
+  .breadcrumb {
+    background: $yandex-yellow;
+
+    &>li+li:before {
+      color: #000;
+    }
+  }
+}
+
+.list-group {
+  .glyphicon {
+    margin-right: 5px;
+  }
+
+  .list-group-item--folder {
+    .glyphicon {
+      font-size: 25px;
+      color: #ffdb4d;
+    }
+
+    a {
+      vertical-align: super;
+    }
+  }
+}
