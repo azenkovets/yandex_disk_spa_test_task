@@ -5,6 +5,7 @@ Single page application which allows you to overview folders and files of your y
 * React
 * React router
 * Webpack
+* precss https://github.com/jonathantneal/precss
 
 # Installation and usage
 0. Install node js
