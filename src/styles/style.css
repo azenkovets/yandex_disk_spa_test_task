@@ -23,7 +23,7 @@ $yandex-yellow : #ffdb4d;
   .list-group-item--folder {
     .glyphicon {
       font-size: 25px;
-      color: #ffdb4d;
+      color: $yandex-yellow;
     }
 
     a {
